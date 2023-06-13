@@ -9,9 +9,8 @@ smarts:
     - scenarios/sumo/straight/cutin_2lane_agents_1
     - scenarios/sumo/straight/merge_exit_sumo_t_agents_1
     - scenarios/sumo/straight/overtake_2lane_agents_1
-
-    - scenarios/sumo/intersections/1_to_3lane_left_turn_sumo_c_agents_1
-    - scenarios/sumo/intersections/1_to_3lane_left_turn_middle_lane_c_agents_1
+    # - scenarios/sumo/intersections/1_to_3lane_left_turn_sumo_c_agents_1
+    # - scenarios/sumo/intersections/1_to_3lane_left_turn_middle_lane_c_agents_1
 
   # PPO algorithm
   alg:
@@ -22,7 +21,7 @@ smarts:
     # ent_coef: 0.01 # For exploration. Range = 0 to 0.01
 
   # Training over all scenarios
-  epochs: 500 # Number of training loops.
+  epochs: 5000 # Number of training loops.
 
   # Training per scenario
   train_steps: 4_096
