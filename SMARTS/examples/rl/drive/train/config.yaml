@@ -21,7 +21,7 @@ smarts:
     # ent_coef: 0.01 # For exploration. Range = 0 to 0.01
 
   # Training over all scenarios
-  epochs: 5000 # Number of training loops.
+  epochs: 500 # Number of training loops.
 
   # Training per scenario
   train_steps: 4_096
